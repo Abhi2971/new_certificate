@@ -28,6 +28,7 @@
 		position: relative;
 		background: #FAF0E6 !important;
 		line-height: normal;
+		color: rgb(91, 68, 54) !important;
 	}
 
 	.certificate-wrapper .certificate-background {
@@ -163,7 +164,9 @@
 		top: 11mm;
 		left: 54mm;
 	}
-
+	.certificate-content .certificate-logo{
+		display: none;
+	}
 	.certificate-wrapper .certificate-content .sr-no {
 		position: absolute;
 		left: 7mm;
@@ -273,28 +276,25 @@
 	.certificate-wrapper .certificate-content .org-name {
 		position: absolute;
 		left: auto;
-		bottom: 11mm;
-		right: 3mm;
-		text-align: right;
-		font-size: 18pt;
-		font-weight: bold;
-		display: none;
-	}
-
-	.certificate-wrapper .certificate-content .org-address {
-		right: 3mm;
-		bottom: 0mm;
-		width: 170mm;
+		bottom: 23mm;
+		right: 9mm;
 		text-align: right;
 		font-size: 12pt;
 		font-weight: bold;
+		width: 46mm;
+	}
+
+	.certificate-wrapper .certificate-content .org-address {
+		right: 8mm;
+		bottom: 8mm;
+		width: 52mm;
+		text-align: right;
+		font-size: 10pt;
 		position: absolute;
-		display: none;
 	}
 
 	.certificate-wrapper .certificate-content .org-address p {
 		margin-bottom: 0mm;
 		margin-top: 0mm;
-		display: none;
 	}
 }
